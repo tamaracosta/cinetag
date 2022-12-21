@@ -8,8 +8,7 @@ import Card from "components/Card";
 
 function Inicio(){
   return (
-    <>
-      <Cabecalho />
+    <>      
       <Banner imagem="home" />
       <Titulo> <h1>Um lugar para guardar seus vídeos e filmes</h1></Titulo>
       <section className={styles.container}>
@@ -17,8 +16,7 @@ function Inicio(){
           return <Card {...video} key={video.id} />
 
         })}
-      </section>      
-      <Rodape />
+      </section>    
     </>
     
   )
